@@ -16,9 +16,9 @@ def generate_launch_description():
             output='screen'
         ),
         Node(
-            package='ac_pkg',
-            executable='ac.py',
-            name='ac_node',
+            package='con_pkg',
+            executable='con.py',
+            name='con_node',
             output='screen'
         )
     ])
