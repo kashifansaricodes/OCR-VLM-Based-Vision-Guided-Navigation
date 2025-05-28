@@ -35,10 +35,11 @@ class ActionControllerNode(Node):
         )
         
         # Define word banks for different motion commands
-        self.forward_words = ['forward', 'ahead', 'upward', 'up', 'front', 'straight', 'go']
-        self.left_words = ['left', 'turn left', 'leftward', 'port']
-        self.right_words = ['right', 'turn right', 'rightward', 'starboard']
-        self.stop_words = ['stop', 'halt', 'brake', 'pause']
+        self.forward_words = ['forward', 'ahead', 'upward', 'up', 'front', 'straight', 'go', 'north']
+        self.left_words = ['left', 'turn left', 'leftward', 'port', 'anticlockwise', 'west']
+        self.right_words = ['right', 'turn right', 'rightward', 'starboard', 'clockwise', 'east']
+        self.down_words = ['backward', 'downward', 'down', 'reverse', 'back', 'retreat']
+        self.stop_words = ['stop', 'halt', 'brake', 'pause', 'hold', 'wait', 'no']
         
         # Set movement parameters
         self.linear_speed = 0.5  # meters per second

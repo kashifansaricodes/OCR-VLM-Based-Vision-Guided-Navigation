@@ -6,7 +6,7 @@ from cv_bridge import CvBridge
 import cv2
 import easyocr
 import time
-from ocr_pkg.srv import OCRInfer  # Import the new service
+from ocr_pkg.srv import OCRInfer  
 
 class OcrNode(Node):
     def __init__(self):
