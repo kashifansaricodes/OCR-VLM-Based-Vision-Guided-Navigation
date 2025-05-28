@@ -7,15 +7,15 @@ This repository contains a ROS 2 Humble workspace implementing a vision-guided n
 [![Video Preview](https://github.com/user-attachments/assets/bd7c9187-48a8-476d-9d94-3d996355153b)](https://drive.google.com/file/d/1zotw4Omo_c_O1A_k2g7YMgoLKE3eMamz/view?usp=drive_link)
 
 ---
+## **Simulation in action and VLM Output**
+
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/5c981b94-42e0-4624-a9df-1b97dfe78c42" alt="Screenshot from 2025-05-14 20-34-21" width="600"></td>
-      <br> Simulation in action and VLM Output
+      <img src="https://github.com/user-attachments/assets/5c981b94-42e0-4624-a9df-1b97dfe78c42" alt="Screenshot from 2025-05-14 20-34-21" width="600">
     </td>
     <td align="center">
-      <img src="https://github.com/user-attachments/assets/7d7d356c-7d73-4e79-9164-bce325c322ab" alt="Figure_1"width="400"></td>
-      <br> 
+      <img src="https://github.com/user-attachments/assets/7d7d356c-7d73-4e79-9164-bce325c322ab" alt="Figure_1" width="400">
     </td>
   </tr>
 </table>
