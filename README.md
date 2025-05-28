@@ -1,12 +1,18 @@
 # OCR-VLM-Based Vision-Guided Navigation
 
 This repository contains a ROS 2 Humble workspace implementing a vision-guided navigation system that integrates Optical Character Recognition (OCR), Vision-Language Models (VLM), and robot control capabilities. The system enables a robot to perceive text in its environment, interpret it using language models, and respond with appropriate navigation actions.
+ 
+### *Click the image above to watch the video*
+
+[![Video Preview](https://github.com/user-attachments/assets/bd7c9187-48a8-476d-9d94-3d996355153b)](https://drive.google.com/file/d/1zotw4Omo_c_O1A_k2g7YMgoLKE3eMamz/view?usp=drive_link)
+
 
 ## Architecture Overview
 
 The system consists of three main packages that work together to create an end-to-end pipeline:
 
-![System Architecture](https://via.placeholder.com/800x400?text=System+Architecture+Diagram)
+![Screenshot from 2025-05-15 11-26-55](https://github.com/user-attachments/assets/697a252a-6027-46de-a826-dcdf89f226d1)
+
 
 ### 1. `ocr_pkg`
 A ROS 2 package that provides OCR capabilities using EasyOCR.
@@ -322,7 +328,4 @@ Place text signs in the simulation environment:
 
 ## License
 MIT
-
-## Contributors
-- Kashif Ansari (kansari@umd.edu)
 
