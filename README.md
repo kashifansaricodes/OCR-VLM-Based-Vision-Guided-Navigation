@@ -2,7 +2,7 @@
 
 This repository contains a ROS 2 Humble workspace implementing a vision-guided navigation system that integrates Optical Character Recognition (OCR), Vision-Language Models (VLM), and robot control capabilities. The system enables a robot to perceive text in its environment, interpret it using language models, and respond with appropriate navigation actions.
  
-### *Click the image above to watch the video*
+### ⏯️ 🎥 *Click the image above to watch the video*
 
 [![Video Preview](https://github.com/user-attachments/assets/d6bd426b-96cb-418f-8b62-942a9190d80d)](https://youtu.be/vHWTwBpvzg8?si=6s6c5gHJRV15vQ6i)
 
@@ -41,7 +41,7 @@ A ROS 2 package that provides OCR capabilities using EasyOCR.
   - Text detection and recognition from robot camera images
   - High-accuracy text extraction with confidence scoring
 
-### *Enhancements:*
+### ⬆️ *Enhancements:*
 
 YOLO11n: Object detection engine for identifying sign boards in the images and feeding the croped portion of the sign boards. 
 SORT: Simple Online and Realtime Tracking algorithm for tracking detected sign boards across different frames.
