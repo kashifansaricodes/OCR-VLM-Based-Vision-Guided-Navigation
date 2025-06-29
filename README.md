@@ -22,14 +22,13 @@ This repository contains a ROS 2 Humble workspace implementing a vision-guided n
   </tr>
 </table>
 
-
-
+![Screenshot from 2025-06-29 15-09-21](https://github.com/user-attachments/assets/64a779b1-eb22-4936-b13c-5f9b50024945)
 
 ## Architecture Overview
 
 The system consists of three main packages that work together to create an end-to-end pipeline:
 
-![Screenshot from 2025-05-15 11-26-55](https://github.com/user-attachments/assets/697a252a-6027-46de-a826-dcdf89f226d1)
+
 
 
 ### 1. `ocr_pkg`
@@ -41,6 +40,14 @@ A ROS 2 package that provides OCR capabilities using EasyOCR.
 - **Functionality**:
   - Text detection and recognition from robot camera images
   - High-accuracy text extraction with confidence scoring
+
+### *Enhancements:*
+
+YOLO11n: Object detection engine for identifying sign boards in the images and feeding the croped portion of the sign boards. 
+SORT: Simple Online and Realtime Tracking algorithm for tracking detected sign boards across different frames.
+
+*(This mitigates the issue with OCR reading incorrect (distant) signs and being applied to only the sign board instead the whole picture)*
+
 
 ### 2. `vlm_pkg`
 Integrates the MobileVLM Vision-Language Model with the robotic system.
